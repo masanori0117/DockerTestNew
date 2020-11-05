@@ -19,7 +19,7 @@ This is a Docker Environment for PHP/Laravel and Vue.js !
 
 ## How to use
 
-Make a directory and move to development directory
+Make a directory and move to development directory (You can have own directory name if you want)
 ```
 $ mkdir docker-laravel && cd docker-laravel
 ```
@@ -57,6 +57,11 @@ http://localhost:8000/
 Command for Enter the app bash
 ```
 $ docker-compose exec app bash
+```
+
+Command for down the container
+```
+$ docker-compose down
 ```
 
 ## Note
