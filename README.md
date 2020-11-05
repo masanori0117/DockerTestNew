@@ -50,7 +50,12 @@ Create Laravel-Project (Only first time)
 $ composer create-project --prefer-dist laravel/laravel .
 ```
 
-Enter the app bash
+You can See the Laravel Home Page in web browser
+```
+http://localhost:8000/
+```
+
+Command for Enter the app bash
 ```
 $ docker-compose exec app bash
 ```
