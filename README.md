@@ -12,11 +12,10 @@ This is a Docker Environment for PHP/Laravel and Vue.js !
 
 
 ## Environments
-* PHP 7.2.34
-* Laravel 7.27.0
-* composer 2.0.4
-* node v10.23.0
-* npm 6.14.8
+* PHP 7.*
+* Laravel 6.*
+* node v10.*
+* npm 6.*
 
 ## How to use
 
@@ -47,7 +46,7 @@ $ docker-compose up -d
 
 Create Laravel-Project (Only first time)
 ```
-$ composer create-project --prefer-dist laravel/laravel .
+$ composer create-project --prefer-dist laravel/laravel:^6.0 .
 ```
 
 You can See the Laravel Home Page in web browser
