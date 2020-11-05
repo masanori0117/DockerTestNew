@@ -47,7 +47,7 @@ $ docker-compose up -d
 
 Create Laravel-Project (Only first time)
 ```
-$ composer create-project laravel/laravel .
+$ composer create-project --prefer-dist laravel/laravel .
 ```
 
 Enter the app bash
