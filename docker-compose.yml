@@ -14,7 +14,7 @@ services:
   app: # アプリケーションコンテナ (PHP/Laravel)
     build: ./docker/web
     volumes:
-      - .:/laravel # 開発ディレクトリを公開ディレクトリにマウント
+      - .:/laravel
     depends_on:
       - mysql
       - composer
@@ -45,6 +45,7 @@ services:
       - PMA_HOST=db-host # mysql container_name参照
       - PMA_USER=docker
       - PMA_PASSWORD=docker
+
   composer:
     image: composer
     volumes:
