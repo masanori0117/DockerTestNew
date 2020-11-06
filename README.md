@@ -44,11 +44,6 @@ Up the containers
 $ docker-compose up -d
 ```
 
-Create Laravel-Project (Only first time)
-```
-$ composer create-project --prefer-dist laravel/laravel:^6.0 .
-```
-
 You can See the Laravel Home Page in web browser
 ```
 http://localhost:8000/
