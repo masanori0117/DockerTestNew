@@ -26,7 +26,6 @@ services:
       DB_PASSWORD: docker
       APP_DEBUG: "true"
       APP_KEY: "base64:KlvfsD03qAsi8eOsmSbME8HK2BiH1iIAAGtnbPU3lkc="
-    command: "php artisan migrate:fresh --seed"
 
   mysql: # データベースコンテナ
     image: mysql:5.7
